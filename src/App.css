@@ -4,14 +4,15 @@
 }
 
 .App {
-  font-family: 'Big Shoulders Inline Text'
+  font-family: 'Big Shoulders Inline Text';
+  display: flex;
+  justify-content: center;
+}
+
+.main-header {
+  font-size: 150px;
 }
 
 /* save this in case refactor for font is needed */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap'); */
-
-
-.feather {
-  transform: rotate(55deg);
-}

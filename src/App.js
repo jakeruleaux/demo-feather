@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Feather from './images/feather.js';
+// import Feather from './images/feather.js';
 
 function App() {
   return (
     <div className="App">
-      App
-      <Feather className="feather" />
+      {/* <h1 className="main-header">feather</h1>
+      <Feather  /> */}
     </div>
   );
 }
