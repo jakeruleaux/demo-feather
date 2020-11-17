@@ -3,10 +3,15 @@
   src: local('Big Shoulders Inline Text'), url(./fonts/BigShouldersInlineText-SemiBold.ttf) format('');
 }
 
-.App{
+.App {
   font-family: 'Big Shoulders Inline Text'
 }
 
 /* save this in case refactor for font is needed */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@600&display=swap'); */
+
+
+.feather {
+  transform: rotate(55deg);
+}
