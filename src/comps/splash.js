@@ -12,6 +12,11 @@ const fadeIn = keyframes `
             }
 `;
 
+const MainContainer = styled.div `
+    width: 100%;
+    text-align: center;            
+`;
+
 const MainTitle = styled.h1 `
     font-size: 150px;
     margin-top: 50px;
@@ -22,11 +27,11 @@ const MainTitle = styled.h1 `
 `;
 const Splash = () => {
     return (
-        <div>
+        <MainContainer>
             <Header />
             <MainTitle>feather</MainTitle>
             <Feather  />
-        </div>
+        </MainContainer>
     );
 }
 

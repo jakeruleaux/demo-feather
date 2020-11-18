@@ -18,7 +18,7 @@ const fadeIn = keyframes `
 
 const HeaderContainer = styled.div `
     height: 75px;
-    width: 100%;
+    padding-right: 60px;
     display: flex;
     justify-content: flex-end;
     animation-name: ${fadeIn};
