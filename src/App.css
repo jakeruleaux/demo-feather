@@ -5,12 +5,6 @@
 
 .App {
   font-family: 'Big Shoulders Inline Text';
-  display: flex;
-  justify-content: center;
-}
-
-.main-header {
-  font-size: 150px;
 }
 
 /* save this in case refactor for font is needed */
